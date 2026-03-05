@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Tutoriel Valentin Haüy</title>
+<style>
+body{font-family:Arial,Helvetica,sans-serif;margin:0;background:#f5f7fb;color:#222}
+header{background:#2c3e50;color:white;padding:20px;text-align:center}
+nav{position:sticky;top:0;background:white;border-bottom:1px solid #ddd;padding:10px;display:flex;gap:10px;flex-wrap:wrap;justify-content:center}
+nav a{padding:8px 12px;background:#eef2f7;border-radius:6px;text-decoration:none;color:#333;font-size:14px}
+section{max-width:900px;margin:40px auto;padding:0 20px}
+h2{border-bottom:2px solid #e0e6ef;padding-bottom:6px}
+.card{background:white;border-radius:10px;padding:18px;margin-top:15px;box-shadow:0 4px 10px rgba(0,0,0,0.05)}
+ul{line-height:1.6}
+.steps li{margin-bottom:8px}
+img{max-width:100%;border-radius:8px;margin-top:15px;border:1px solid #ddd}
+footer{text-align:center;padding:30px;color:#666;font-size:14px}
+</style>
+</head>
+<body>
+
+<header>
+<h1>Tutoriel Médiathèque Valentin Haüy</h1>
+<p>Guide rapide pour l'inscription et l'utilisation de la plateforme Éole</p>
+</header>
+
+<nav>
+<a href="#public">Public concerné</a>
+<a href="#documents">Documents</a>
+<a href="#nanook">Inscription Nanook</a>
+<a href="#eole">Inscription Éole</a>
+<a href="#pret">Prêter un ouvrage</a>
+<a href="#cd">CD Daisy</a>
+<a href="#lecteur">Lecteur Victor</a>
+</nav>
+
+<section id="public">
+<h2>Public concerné</h2>
+<div class="card">
+<p><strong>Concerné :</strong></p>
+<ul>
+<li>Personnes ayant un handicap permanent : visuel, moteur, mental ou cognitif.</li>
+</ul>
+<p><strong>Non concerné :</strong></p>
+<ul>
+<li>Parents de la personne</li>
+<li>Organismes ou collectifs</li>
+<li>Handicaps temporaires</li>
+<li>Personnes allophones</li>
+</ul>
+</div>
+</section>
+
+<section id="documents">
+<h2>Documents à présenter</h2>
+<div class="card">
+<ul>
+<li>Carte d'invalidité (80 % minimum) ou carte mobilité inclusion</li>
+<li>Certificat médical ou paramédical</li>
+<li>Document scolaire ou universitaire (classe adaptée ou plan spécifique)</li>
+</ul>
+<p>Les documents sont uniquement vérifiés : ils ne sont pas conservés.</p>
+<ul>
+<li>Déclaration sur l'honneur</li>
+<li>Charte Valentin Haüy</li>
+<li>Formulaire d'inscription médiathèque</li>
+</ul>
+</div>
+</section>
+
+<section id="nanook">
+<h2>Inscription sur Nanook</h2>
+<div class="card">
+<ol class="steps">
+<li>Ouvrir la fiche lecteur.</li>
+<li>Dans la zone <strong>Abonnement</strong>, choisir : <strong>Abonnement Valentin Haüy</strong>.</li>
+</ol>
+
+<img src="image1.png" alt="Choisir abonnement Valentin Haüy dans Nanook">
+
+</div>
+</section>
+
+<section id="eole">
+<h2>Inscription sur la base Éole</h2>
+<div class="card">
+<p><strong>Connexion :</strong></p>
+<ul>
+<li>ID : 16939</li>
+<li>Mot de passe : 16939PARTGPSEA</li>
+</ul>
+
+<img src="image2.png" alt="Page de connexion Éole">
+
+<ol class="steps">
+<li>Aller dans <strong>Service au public</strong>.</li>
+<li>Cliquer sur <strong>Inscrire un nouvel utilisateur</strong>.</li>
+<li>Créer le compte.</li>
+<li>L'utilisateur est inscrit par défaut à la newsletter.</li>
+<li>Transmettre les identifiants de connexion à l'usager.</li>
+</ol>
+
+<img src="image3.png" alt="Menu services au public">
+
+</div>
+</section>
+
+<section id="pret">
+<h2>Télécharger ou envoyer un ouvrage</h2>
+<div class="card">
+<ol class="steps">
+<li>Accéder au compte utilisateur.</li>
+<li>Aller dans <strong>Service public → Accéder au compte des utilisateurs</strong>.</li>
+<li>Choisir l'usager.</li>
+<li>Cliquer sur <strong>Ouvrir une session de prêt</strong>.</li>
+<li>Rechercher un document (audio ou jeunesse).</li>
+</ol>
+
+<img src="image4.png" alt="Session de prêt utilisateur">
+
+<p>Trois options :</p>
+<ul>
+<li>Télécharger le document (usage personnel).</li>
+<li>Envoyer le CD à l'usager.</li>
+<li>Ajouter le document à la liste de l'usager.</li>
+</ul>
+
+<p><strong>Important :</strong> toujours se déconnecter après l'opération.</p>
+</div>
+</section>
+
+<section id="cd">
+<h2>CD Daisy</h2>
+<div class="card">
+<ul>
+<li>Les CD Daisy de la médiathèque doivent être rendus comme les autres documents.</li>
+<li>Les CD commandés sur Éole peuvent être conservés par l'usager.</li>
+<li>Ils servent surtout à faire découvrir la plateforme.</li>
+</ul>
+<p>Le braille est très peu demandé. En cas de besoin : appeler la médiathèque Valentin Haüy.</p>
+<p><strong>Téléphone :</strong> 01 44 49 27 28</p>
+</div>
+</section>
+
+<section id="lecteur">
+<h2>Lecteur Victor</h2>
+<div class="card">
+<p>Le lecteur Victor peut être prêté. Il permet de lire :</p>
+<ul>
+<li>CD Daisy</li>
+<li>CD MP3</li>
+<li>Fichiers MP3 via USB</li>
+</ul>
+
+<img src="image5.png" alt="Schéma du lecteur Victor Daisy">
+
+<p><strong>Important :</strong> le temps de réaction du lecteur est lent. Il émet un son quand une action est prise en compte.</p>
+
+<div style="width: 100%;"><div style="position: relative; padding-bottom: 56.25%; padding-top: 0; height: 0;"><iframe title="Victor" frameborder="0" width="1200" height="675" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" src="https://view.genially.com/69a9a38d43a02ad4fc9aa40b" type="text/html" allowscriptaccess="always" allowfullscreen="true" scrolling="yes" allownetworking="all"></iframe> </div> </div>
+
+  
+<ul>
+<li>1 : tonalité de la voix</li>
+<li>2 : volume</li>
+<li>3 : vitesse</li>
+<li>11 : éjecter CD</li>
+<li>12 : allumer / éteindre</li>
+<li>13 : recul rapide</li>
+<li>14 : lecture / pause / stop</li>
+<li>15 : avance rapide</li>
+<li>16 : mise en veille</li>
+<li>17 : lecteur carte SD</li>
+<li>18 : port USB</li>
+<li>19 : prise casque</li>
+<li>20 : alimentation</li>
+<li>21 : insertion CD Daisy</li>
+</ul>
+</div>
+</section>
+
+<footer>
+Tutoriel simplifié pour l'accueil des usagers Valentin Haüy
+</footer>
+
+</body>
+</html>
