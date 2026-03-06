@@ -26,21 +26,24 @@ img{max-width:100%;border-radius:8px;margin-top:15px;border:1px solid #ddd}
 footer{text-align:center;padding:30px;color:#666;font-size:14px}
 .bouton-sticky {
   position: fixed;
-  left: 10px;
-  top: 50%;
+  left: 10px;       /* distance du bord gauche */
+  top: 50%;         /* centré verticalement */
   transform: translateY(-50%);
-  z-index: 1000;
+  z-index: 1000;    /* devant tout */
 }
 
 .bouton-sticky img {
   width: 80px;
   cursor: pointer;
-}
-  
+}  
 </style>
 </head>
 <body>
 
+<a href="https://eole.avh.asso.fr/" class="bouton-sticky">
+  <img src="logo.png">
+</a>
+  
 <header>
 <h1>Inscrire un usager sur la base Eole</h1>
 </header>
@@ -55,9 +58,6 @@ footer{text-align:center;padding:30px;color:#666;font-size:14px}
 <a href="#lecteur">Lecteur Victor</a>
 </nav>
 
-<a href="https://eole.avh.asso.fr/" class="bouton-sticky">
-  <img src="logo.png">
-</a>
 
   
 <section id="resume">
